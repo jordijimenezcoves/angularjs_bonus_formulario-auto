@@ -656,12 +656,12 @@ angular.autoValidate = angular.autoValidate || {
 
 angular.autoValidate.errorMessages['default'] = {
   defaultMsg: 'Please add error message for {0}',
-  email: 'Ingresa un correo válido',
-  minlength: 'Ingrese al menos {0} caracteres',
-  maxlength: 'El máximo es de {0} caracteres',
+  email: 'Please enter a valid email address',
+  minlength: 'Please enter at least {0} characters',
+  maxlength: 'You have entered more than the maximum {0} characters',
   min: 'Please enter the minimum number of {0}',
   max: 'Please enter the maximum number of {0}',
-  required: 'Este campo es necesario',
+  required: 'This field is required',
   date: 'Please enter a valid date',
   pattern: 'Please ensure the entered information adheres to this pattern {0}',
   number: 'Please enter a valid number',
